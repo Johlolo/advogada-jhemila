@@ -1,0 +1,223 @@
+body{
+	font-family: arial, sans-serif, Helvetica;
+	background: #eee3d2;
+	max-width: 960px;
+	margin: auto;
+}
+
+#topo_1{
+	background-color: #eee3d2;
+	height: 150px;
+	width: 480px;
+	float: left;
+}
+
+#nome{
+	margin: auto;
+	padding: 45px 0 0 20px;
+	color: #0b3443;
+	font-size: 40px;
+}
+
+#oab{
+	margin: auto;
+	padding: 5px 0 0 30px;
+	color: #0b3443;
+}
+
+#topo_2{
+	background-color: #eee3d2;
+	height: 150px;
+	width: 480px;
+	float: right;
+}
+
+#contato{
+	color: #0b3443;
+	margin: auto;
+	text-align: right;
+	padding: 55px 20px 0 0;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+#email{
+	margin: auto;
+	text-decoration: none;
+	color: #0b3443;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+#telefone{
+	margin: auto;
+	padding: 5px 0 0 0;
+}
+
+#content{
+	background-color: #eee3d2;
+	clear: both;
+	min-height: 600px;
+}
+
+#foto{
+	padding: 20px 0 0 0;
+}
+#foto_1{
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+}
+
+#sobre_1{
+	width: 560px;
+	float: right;
+	margin: auto;
+	text-align: center;
+	padding: 10px 0 0 0;
+	color: #0b3443;
+	font-size: 30px;
+	text-shadow: 1px 1px 1px #ffffff;
+}
+
+#sobre_2{
+	width: 560px;
+	float: right;
+}
+
+#texto{
+	width: 500px;
+	margin: auto;
+	text-align: justify;
+	color: #0b3443;
+	padding: 25px 0 0 0;
+	text-shadow: 1px 1px 1px #ffffff;
+}
+
+#botao_contato{
+	width: 560px;
+	float: right;
+	padding: 20px 0 30px 0;
+}
+
+#limite_botao{
+	width: 250px;
+	text-align: center;
+	margin: auto;
+}
+
+#clicar{
+	width: 250px;
+	padding: 1px 5px 1px 5px;
+	background-color: #0b3443;
+	color: #eee3d2;
+	margin: auto;
+	text-align: center;
+	border-radius: 25px;
+}
+
+#link{
+	text-decoration-line: none;
+}
+
+#area{
+	clear: both;
+	background-color: #0b3443;
+	color: #eee3d2;
+	height: 280px;
+	border-radius: 20px;
+}
+
+#titulo{
+	margin: auto;
+	text-align: center;
+	padding: 5px 0 0 0;
+	font-size: 30px;
+	text-shadow: 1px 1px 1px #ffffff;
+}
+
+#areas{
+	width: 960px;
+}
+
+#area_1{
+	height: 100%;
+	min-height: 30px;
+	width: 320px;
+	float: left;
+}
+
+#area_2{
+	height: 100%;
+	min-height: 30px;
+	width: 320px;
+	float: right;
+}
+
+#area_3{
+	height: 100%;
+	min-height: 30px;
+	width: 320px;
+	float: right;
+}
+
+#foto_1_1{
+	width: 100px;
+	margin: auto;
+	padding: 0 0 0 110px;
+}
+
+#descricao{
+	margin: auto;
+	text-align: center;
+}
+
+#local{
+	font-size: 25px;
+	padding: 20px 0 0 0;
+	color: #0b3443;
+	margin: auto;
+	text-shadow: 1px 1px 1px #ffffff;
+}
+
+#endereco{
+	color: #0b3443;
+	margin: auto;
+	height: 20px;
+	text-shadow: 1px 1px 1px #ffffff;
+}
+
+#endereco_1{
+	margin: auto;
+	width: 480px;
+	float: left;
+	text-align: left;
+}
+
+#endereco_1_1{
+	margin: auto;
+	padding: 5px 0 20px 0;
+}
+
+#endereco_2{
+	margin: auto;
+	width: 480px;
+	float: right;
+	text-align: right;
+}
+
+#mapa{
+	padding: 30px 0 0 0;
+	margin: auto;
+}
+
+#direitos{
+	margin: auto;
+	text-align: center;
+	padding: 8px;
+	border-radius: 15px;
+}
+footer{
+	background-color: #0b3443;
+	clear: both;
+	min-height: 20px;
+	color: #eee3d2;
+}
