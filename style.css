@@ -99,13 +99,13 @@ body{
 }
 
 #limite_botao{
-	width: 250px;
+	width: 300px;
 	text-align: center;
 	margin: auto;
 }
 
 #clicar{
-	width: 250px;
+	width: 300px;
 	padding: 1px 5px 1px 5px;
 	background-color: #0b3443;
 	color: #eee3d2;
