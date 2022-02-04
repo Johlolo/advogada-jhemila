@@ -14,7 +14,7 @@ header{
 #topo_1{
 	background-color: #eee3d2;
 	height: 150px;
-	width: 480px;
+	max-width: 480px;
 	float: left;
 }
 
@@ -35,7 +35,7 @@ header{
 #topo_2{
 	background-color: #eee3d2;
 	height: 150px;
-	width: 480px;
+	max-width: 480px;
 	float: right;
 }
 
@@ -76,16 +76,21 @@ header{
 }
 
 #foto{
-	padding: 20px 0 0 0;
+	width: 42%;
 }
 #foto_1{
-	width: 400px;
+	width: 100%;
 	border-radius: 20px;
 	float: left;
 }
 
+#sobre{
+	width: 58%;
+	float: right;
+}
+
 #sobre_1{
-	width: 560px;
+	width: 100%;
 	float: right;
 	margin: auto;
 	text-align: center;
@@ -96,13 +101,13 @@ header{
 }
 
 #sobre_2{
-	width: 560px;
+	width: 100%;
 	float: right;
 	font-size: 16px;
 }
 
 #texto{
-	width: 500px;
+	width: 90%;
 	margin: auto;
 	text-align: justify;
 	color: #0b3443;
@@ -111,7 +116,7 @@ header{
 }
 
 #referencia{
-	width: 500px;
+	width: 90%;
 	margin: auto;
 	font-style: italic;
 	text-align: justify;
@@ -121,19 +126,20 @@ header{
 }
 
 #botao_contato{
-	width: 560px;
+	width: 100%;
 	float: right;
 	padding: 20px 0 30px 0;
 }
 
 #limite_botao{
-	width: 300px;
+	padding: 20px 0 0 0;
+	width: 75%;
 	text-align: center;
 	margin: auto;
 }
 
 #clicar{
-	width: 300px;
+	width: 75%;
 	padding: 1px 5px 1px 5px;
 	background-color: #0b3443;
 	color: #f8f3ed;
@@ -150,7 +156,7 @@ header{
 	clear: both;
 	background-color: #0b3443;
 	color: #eee3d2;
-	height: 280px;
+	min-height: 240px;
 	border-radius: 20px;
 }
 
@@ -163,28 +169,29 @@ header{
 }
 
 #areas{
-	width: 960px;
+	max-width: 960px;
+	min-height: 240px;
 	margin: auto;
 }
 
 #area_1{
 	height: 100%;
 	min-height: 30px;
-	width: 320px;
+	width: 33%;
 	float: left;
 }
 
 #area_2{
 	height: 100%;
 	min-height: 30px;
-	width: 320px;
+	width: 33%;
 	float: right;
 }
 
 #area_3{
 	height: 100%;
 	min-height: 30px;
-	width: 320px;
+	width: 33%;
 	float: right;
 }
 
@@ -240,7 +247,7 @@ header{
 }
 
 #mapa_2{
-	max-width: 960px;
+	width: 100%;
 	padding: 30px 0 0 0;
 	margin: auto;
 }
@@ -256,4 +263,102 @@ footer{
 	clear: both;
 	min-height: 20px;
 	color: #eee3d2;
+}
+
+@media only screen and (max-device-width: 1200px) {
+
+	#topo_1{
+		background-color: #eee3d2;
+		height: 150px;
+		width: 100%;
+		margin: auto;
+	}
+
+	#topo_2{
+		background-color: #eee3d2;
+		height: 150px;
+		width: 100%;
+		margin: auto;
+	}
+
+	#nome{
+		margin: auto;
+		padding: 45px 0 0 20px;
+		color: #0b3443;
+		font-size: 60px;
+		text-shadow: 1px 1px 1px #ffffff;
+	}
+	
+	#oab{
+		margin: auto;
+		padding: 5px 0 0 30px;
+		font-size: 18px;
+		color: #0b3443;
+	}
+
+	#email{
+		margin: auto;
+		text-decoration: none;
+		color: #0b3443;
+		color: rgba(0, 0, 0, 0.5);
+		font-size: 20px;
+	}
+	
+	#telefone{
+		margin: auto;
+		padding: 5px 0 0 0;
+		font-size: 20px;
+	}
+
+	#content_1{
+		background-color: #eee3d2;
+		clear: both;
+		width: 100%;
+		margin: auto;
+		min-height: 600px;
+	}
+
+	#foto{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#foto_1{
+		width: 80%;
+		border-radius: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 10%;
+	}
+
+	#sobre_1{
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		color: #0b3443;
+		font-size: 35px;
+		text-shadow: 1px 1px 1px #ffffff;
+	}
+	
+	#sobre_2{
+		width: 80%;
+		font-size: 16px;
+		margin: auto;
+		text-align: center;
+	}
+
+	#botao_contato{
+		width: 80%;
+		margin: auto;
+		padding: 40px 0 60px 0;
+	}
+
+	#content_2{
+		background-image: linear-gradient(to right, #f7f0e6 , #eee3d2, #eee3d2, #eee3d2, #f7f0e6);
+		clear: both;
+		margin: auto;
+		min-height: 600px;
+		width: 100%;
+	}
+	
 }
