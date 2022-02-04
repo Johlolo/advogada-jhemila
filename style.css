@@ -1,5 +1,5 @@
 body{
-	font-family: courier, Arial, Helvetica;
+	font-family: courier, helvetica, arial;
 	/* background: #f7f0e6; */
 	background-image: linear-gradient(to right, #f8f3ed , #eee3d2, #eee3d2, #eee3d2, #f8f3ed);
 	/* max-width: 960px; */
