@@ -19,6 +19,7 @@ header{
 }
 
 #nome{
+	font-weight: normal;
 	margin: auto;
 	padding: 45px 0 0 20px;
 	color: #0b3443;
@@ -27,9 +28,11 @@ header{
 }
 
 #oab{
+	font-weight: normal;
 	margin: auto;
 	padding: 5px 0 0 30px;
 	color: #0b3443;
+	font-size: 17px;
 }
 
 #topo_2{
@@ -90,6 +93,7 @@ header{
 }
 
 #sobre_1{
+	font-weight: normal;
 	width: 100%;
 	float: right;
 	margin: auto;
@@ -132,7 +136,7 @@ header{
 }
 
 #limite_botao{
-	padding: 20px 0 0 0;
+	padding: 30px 0 0 0;
 	width: 75%;
 	text-align: center;
 	margin: auto;
@@ -145,7 +149,8 @@ header{
 	color: #f8f3ed;
 	margin: auto;
 	text-align: center;
-	border-radius: 25px;
+	font-size: 18px;
+	border-radius: 30px;
 }
 
 #link{
@@ -202,6 +207,7 @@ header{
 }
 
 #descricao{
+	font-weight: normal;
 	margin: auto;
 	text-align: center;
 }
@@ -270,14 +276,14 @@ footer{
 	#topo_1{
 		background-color: #eee3d2;
 		height: 150px;
-		width: 100%;
+		width: 50%;
 		margin: auto;
 	}
 
 	#topo_2{
 		background-color: #eee3d2;
 		height: 150px;
-		width: 100%;
+		width: 50%;
 		margin: auto;
 	}
 
@@ -285,14 +291,15 @@ footer{
 		margin: auto;
 		padding: 45px 0 0 20px;
 		color: #0b3443;
-		font-size: 60px;
+		font-size: 45px;
+		font-weight: bold;
 		text-shadow: 1px 1px 1px #ffffff;
 	}
 	
 	#oab{
 		margin: auto;
 		padding: 5px 0 0 30px;
-		font-size: 18px;
+		font-size: 30px;
 		color: #0b3443;
 	}
 
@@ -301,13 +308,13 @@ footer{
 		text-decoration: none;
 		color: #0b3443;
 		color: rgba(0, 0, 0, 0.5);
-		font-size: 20px;
+		font-size: 30px;
 	}
 	
 	#telefone{
 		margin: auto;
 		padding: 5px 0 0 0;
-		font-size: 20px;
+		font-size: 30px;
 	}
 
 	#content_1{
@@ -320,15 +327,22 @@ footer{
 
 	#foto{
 		width: 100%;
-		margin-left: auto;
-		margin-right: auto;
+		margin: auto;
+		padding: 30px 0 0 0;
 	}
 	#foto_1{
-		width: 80%;
+		width: 60%;
 		border-radius: 20px;
 		margin-left: auto;
 		margin-right: auto;
-		padding-left: 10%;
+		padding-left: 20%;
+	}
+
+	#sobre{
+		margin: auto;
+		padding: 10px 0 0 0;
+		width: 100%;
+		clear: both;
 	}
 
 	#sobre_1{
@@ -336,21 +350,40 @@ footer{
 		margin: auto;
 		text-align: center;
 		color: #0b3443;
-		font-size: 35px;
+		font-size: 60px;
 		text-shadow: 1px 1px 1px #ffffff;
 	}
 	
 	#sobre_2{
-		width: 80%;
-		font-size: 16px;
+		width: 90%;
+		padding-right: 5%;
+		font-size: 30px;
 		margin: auto;
 		text-align: center;
 	}
 
 	#botao_contato{
-		width: 80%;
+		width: 100%;
 		margin: auto;
-		padding: 40px 0 60px 0;
+		padding: 50px 0 70px 0;
+	}
+
+	#limite_botao{
+		padding: 20px 0 0 0;
+		width: 75%;
+		text-align: center;
+		margin: auto;
+	}
+
+	#clicar{
+		width: 75%;
+		padding: 1px 5px 1px 5px;
+		background-color: #0b3443;
+		color: #f8f3ed;
+		margin: auto;
+		text-align: center;
+		font-size: 40px;
+		border-radius: 30px;
 	}
 
 	#content_2{
