@@ -370,20 +370,20 @@ footer{
 
 	#limite_botao{
 		padding: 20px 0 0 0;
-		width: 75%;
+		width: 85%;
 		text-align: center;
 		margin: auto;
 	}
 
 	#clicar{
-		width: 75%;
+		width: 85%;
 		padding: 1px 5px 1px 5px;
 		background-color: #0b3443;
 		color: #f8f3ed;
 		margin: auto;
 		text-align: center;
-		font-size: 40px;
-		border-radius: 30px;
+		font-size: 38px;
+		border-radius: 50px;
 	}
 
 	#content_2{
