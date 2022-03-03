@@ -1,8 +1,6 @@
 body{
 	font-family: courier, helvetica, arial;
-	/* background: #f7f0e6; */
 	background-image: linear-gradient(to right, #f8f3ed , #eee3d2, #eee3d2, #eee3d2, #f8f3ed);
-	/* max-width: 960px; */
 	margin: auto;
 }
 
@@ -12,7 +10,6 @@ header{
 }
 
 #topo_1{
-	background-color: #eee3d2;
 	height: 150px;
 	max-width: 480px;
 	float: left;
@@ -36,7 +33,6 @@ header{
 }
 
 #topo_2{
-	background-color: #eee3d2;
 	height: 150px;
 	max-width: 480px;
 	float: right;
@@ -63,7 +59,6 @@ header{
 }
 
 #content_1{
-	background-color: #eee3d2;
 	clear: both;
 	max-width: 960px;
 	margin: auto;
@@ -71,7 +66,6 @@ header{
 }
 
 #content_2{
-	/* background-color: #eee3d2; */
 	background-image: linear-gradient(to right, #f7f0e6 , #eee3d2, #eee3d2, #eee3d2, #f7f0e6);
 	clear: both;
 	margin: auto;
@@ -161,7 +155,7 @@ header{
 	clear: both;
 	background-color: #0b3443;
 	color: #eee3d2;
-	min-height: 240px;
+	min-height: 200px;
 	border-radius: 20px;
 }
 
@@ -175,7 +169,7 @@ header{
 
 #areas{
 	max-width: 960px;
-	min-height: 240px;
+	min-height: 200px;
 	margin: auto;
 }
 
@@ -271,71 +265,93 @@ footer{
 	color: #eee3d2;
 }
 
-@media only screen and (max-device-width: 1200px) {
+/*=====================================================================================================*/
+
+
+@media only screen and (max-device-width: 900px) {
+
+	header{
+		max-width: 100%;
+		margin: auto;
+		min-height: 80px;
+	}
 
 	#topo_1{
+		clear: both;
 		background-color: #eee3d2;
-		height: 150px;
-		width: 50%;
+		height: 50%;
+		width: 100%;
 		margin: auto;
+		text-align: center;
 	}
 
 	#topo_2{
+		clear: both;
 		background-color: #eee3d2;
-		height: 150px;
-		width: 50%;
+		height: 50%;
+		width: 100%;
 		margin: auto;
+		text-align: left;
 	}
 
 	#nome{
 		margin: auto;
-		padding: 45px 0 0 20px;
+		padding: 20px 0 0 0;
 		color: #0b3443;
-		font-size: 45px;
-		font-weight: bold;
+		font-size: 30px;
+		font-weight: normal;
+		text-align: center;
 		text-shadow: 1px 1px 1px #ffffff;
 	}
 	
 	#oab{
 		margin: auto;
-		padding: 5px 0 0 30px;
-		font-size: 30px;
+		padding: 5px 0 0 10px;
 		color: #0b3443;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	#contato{
+		margin: auto;
+		text-align: left;
+		padding: 20px 0 0 10px;
 	}
 
 	#email{
 		margin: auto;
 		text-decoration: none;
+		clear: both;
 		color: #0b3443;
 		color: rgba(0, 0, 0, 0.5);
-		font-size: 30px;
+		font-size: 14px;
 	}
 	
 	#telefone{
+		text-decoration: none;
 		margin: auto;
-		padding: 5px 0 0 0;
-		font-size: 30px;
+		font-size: 14px;
 	}
 
 	#content_1{
-		background-color: #eee3d2;
 		clear: both;
 		width: 100%;
 		margin: auto;
 		min-height: 600px;
+		align-items: center;
 	}
 
 	#foto{
 		width: 100%;
 		margin: auto;
 		padding: 30px 0 0 0;
+		align-items: center;
 	}
 	#foto_1{
 		width: 60%;
-		border-radius: 20px;
-		margin-left: auto;
-		margin-right: auto;
 		padding-left: 20%;
+		border-radius: 0px;
+		align-items: center;
 	}
 
 	#sobre{
@@ -350,14 +366,14 @@ footer{
 		margin: auto;
 		text-align: center;
 		color: #0b3443;
-		font-size: 60px;
+		font-size: 28px;
 		text-shadow: 1px 1px 1px #ffffff;
 	}
 	
 	#sobre_2{
 		width: 90%;
 		padding-right: 5%;
-		font-size: 30px;
+		font-size: 16px;
 		margin: auto;
 		text-align: center;
 	}
@@ -370,7 +386,7 @@ footer{
 
 	#limite_botao{
 		padding: 20px 0 0 0;
-		width: 85%;
+		width: 90%;
 		text-align: center;
 		margin: auto;
 	}
@@ -382,13 +398,13 @@ footer{
 		color: #f8f3ed;
 		margin: auto;
 		text-align: center;
-		font-size: 38px;
+		font-size: 18px;
 		border-radius: 50px;
 	}
 
-	#mapa_2{
-		width: 100%;
-		height: 900px;
+	#titulo{
+		font-weight: normal;
+		font-size: 20px;
 	}
 
 	#content_2{
@@ -397,6 +413,84 @@ footer{
 		margin: auto;
 		min-height: 600px;
 		width: 100%;
+	}
+
+	#area {
+		min-height: 130px;
+		width: 100%;
+	}
+
+	#areas {
+		width: 100%;
+		margin: auto;
+	}
+
+	#area_1{
+		width: 33%;
+		margin: auto;
+	}
+
+	#area_2{
+		width: 33%;
+		margin: auto;
+	}
+
+	#area_3{
+		width: 33%;
+		margin: auto;
+	}
+
+	#foto_1_1{
+		width: 60%;
+		margin: auto;
+		padding-left: 20%;
+	}
+	
+	#descricao{
+		width: 90%;
+		font-weight: normal;
+		margin: auto;
+		text-align: center;
+		font-size: 14px;
+	}
+
+	#mapa_1{
+		width: 100%;
+		margin: auto;
+	}
+
+	#mapa_2{
+		width: 90%;
+		padding-left: 5%;
+		height: 300px;
+	}
+
+	#endereco{
+		margin: auto;
+		width: 90%;
+		padding-left: 5%;
+		text-align: justify;
+	}
+
+	#endereco_1{
+		width: 100%;
+		margin: auto;
+		font-size: 12px;
+		clear: both;
+		text-align: justify;
+	}
+
+	#endereco_2{
+		width: 100%;
+		margin: auto;
+		font-size: 12px;
+		clear: both;
+		text-align: justify;
+	}
+
+	footer{
+		margin: auto;
+		font-size: 10px;
 	}
 	
 }
